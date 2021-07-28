@@ -1,0 +1,64 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "Details", function () {
+  return Details;
+});
+var _textReveal = require('./textReveal');
+var _textLinesReveal = require('./textLinesReveal');
+var _gsap = require('gsap');
+var _gsapDefault = _parcelHelpers.interopDefault(_gsap);
+class Details {
+  constructor(el, closeDetailsCtrl) {
+    this.DOM = {
+      el: el,
+      images: el.querySelectorAll('.panel > .panel__img'),
+      title: el.querySelector('.details__content > .details__content-title'),
+      text: el.querySelector('.details__content > .details__content-text'),
+      link: el.querySelector('.details__content > .details__content-link'),
+      closeDetailsCtrl: closeDetailsCtrl
+    };
+    // textLinesReveal obj (this.DOM.text animation)
+    this.textLinesReveal = new _textLinesReveal.TextLinesReveal(this.DOM.text);
+    // TextReveal obj (this.DOM.title and this.DOM.link animation)
+    this.textReveal = new _textReveal.TextReveal([this.DOM.title, this.DOM.link, this.DOM.closeDetailsCtrl]);
+  }
+  open() {
+    this.DOM.el.classList.add('details--open');
+    document.body.classList.add('state-details');
+    this.textLinesReveal.in();
+    this.textReveal.in();
+    _gsapDefault.default.killTweensOf(this.DOM.images);
+    _gsapDefault.default.timeline({
+      defaults: {
+        duration: 2,
+        ease: 'expo'
+      }
+    }).set(this.DOM.images, {
+      opacity: 0,
+      y: '150%'
+    }).to(this.DOM.images, {
+      opacity: 1,
+      y: '0%',
+      stagger: 0.01
+    });
+  }
+  close() {
+    this.textLinesReveal.out();
+    this.textReveal.out();
+    _gsapDefault.default.killTweensOf(this.DOM.images);
+    _gsapDefault.default.timeline({
+      defaults: {
+        duration: 0.7,
+        ease: 'power2'
+      },
+      onComplete: () => {
+        this.DOM.el.classList.remove('details--open');
+        document.body.classList.remove('state-details');
+      }
+    }).to(this.DOM.images, {
+      opacity: 0,
+      y: '-150%',
+      stagger: 0.01
+    });
+  }
+}

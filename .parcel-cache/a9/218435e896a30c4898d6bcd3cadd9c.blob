@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Content Preview and Menu Animation | Codrops</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Codrops">
+		<link rel="shortcut icon" href="341a7ca65c476e9195f17bbb4d73e830">
+		<link rel="stylesheet" href="48ee214435781b6f46976e618f0d30c2">
+		<link rel="stylesheet" type="text/css" href="f54802ad23422b2dd67f74c57146c65d">
+		<script data-parcel-key="cb2664e1f0ff0770550988136f751301">document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<!--script src="//tympanus.net/codrops/adpacks/analytics.js"></script-->
+	</head>
+	<body class="loading state-initial">
+		<main>
+			
+			<div class="frame">
+				<h1 class="frame__title">Content Preview and Menu Animation</h1>
+				<nav class="frame__links">
+					<a href="e48d842c7ce947f6f4a18df19c17df26">Previous demo</a>
+					<a href="3b0b380374d591da16d5a5ccc15d1696">Article</a>
+					<a href="">GitHub</a>
+				</nav>
+			</div>
+
+			<nav class="menu">
+				<span class="menu__item oh"><a class="menu__item-link oh__inner" href="#details-1">Velocity</a></span>
+				<span class="menu__item oh"><a class="menu__item-link oh__inner" href="#details-2">Projectiles</a></span>
+				<span class="menu__item oh"><a class="menu__item-link oh__inner" href="#details-3">Gravity</a></span>
+				<span class="menu__item oh"><a class="menu__item-link oh__inner" href="#details-4">Quasimodo</a></span>
+				<span class="menu__item oh"><a class="menu__item-link oh__inner" href="#details-5">Hyperbolic</a></span>
+				<span class="menu__item oh"><a class="menu__item-link oh__inner" href="#details-6">Ganymede</a></span>
+				<button class="close close--menu oh unbutton" aria-label="Close menu"><span class="oh__inner">&#10005;</span></button>
+			</nav>
+
+			<button class="menu-link oh unbutton underline"><span class="oh__inner">Menu</span></button>
+
+			<h2 class="heading oh"><span class="oh__inner">We are <strong>Super.fluid</strong></span></h2>
+			
+			<p class="content-primary">Flowing without any loss of kinetic energy &mdash; stir us and we form vortices that continue to rotate indefinitely. </p>
+			
+			<p class="content-secondary">Not all Bose–Einstein condensates can be regarded as superfluids, and not all superfluids are Bose–Einstein condensates.</p>
+			
+			<div class="deco" aria-hidden="true">
+				<div class="deco__img-wrap deco__img-wrap--upper"><div class="deco__img deco__img--upper"></div></div>
+				<div class="deco__img-wrap deco__img-wrap--lower"><div class="deco__img deco__img--lower"></div></div>
+			</div>
+			
+			<section class="details-wrap">
+				<div class="details" id="details-1">
+					<div class="panel">
+						<img class="panel__img pos-1" src="99d73a50b30e8417a5a59fe0b8c379ed" alt="Some image">
+						<img class="panel__img pos-2" src="cd2d4f5b0cab8e9e13ba0dd92f1546b5" alt="Some image">
+						<img class="panel__img pos-3" src="55240efab90b09b1e30456858777cfc1" alt="Some image">
+						<img class="panel__img pos-4" src="3e3920e911e003aac557ce4b9c438968" alt="Some image">
+						<img class="panel__img pos-5" src="0b7d84629c7cec6dd23959e78220d247" alt="Some image">
+						<img class="panel__img pos-6" src="8bf01e1a9e29e6756d69e595544bb6d4" alt="Some image">
+						<img class="panel__img pos-7" src="6d574afdd604eb781d2d096167acfaa3" alt="Some image">
+						<img class="panel__img pos-8" src="59574384b42299b6ecae980dde0a8c7f" alt="Some image">
+						<img class="panel__img pos-9" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-10" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-11" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-12" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-13" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-14" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-15" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-16" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+					</div>
+					<div class="details__content">
+						<h3 class="details__content-title oh"><span class="oh__inner">Velocity</span></h3>
+						<p class="details__content-text">Incredible as this seems to our ordinary ideas, it is undoubtedly an understatement rather than an exaggeration of the true proportion as observed in the case of koilon.</p>
+						<a class="details__content-link oh"><span class="oh__inner">+ Read the story</span></a>
+					</div>
+				</div>
+				<div class="details" id="details-2">
+					<div class="panel">
+						<img class="panel__img pos-1" src="99d73a50b30e8417a5a59fe0b8c379ed" alt="Some image">
+						<img class="panel__img pos-2" src="cd2d4f5b0cab8e9e13ba0dd92f1546b5" alt="Some image">
+						<img class="panel__img pos-3" src="55240efab90b09b1e30456858777cfc1" alt="Some image">
+						<img class="panel__img pos-4" src="3e3920e911e003aac557ce4b9c438968" alt="Some image">
+						<img class="panel__img pos-5" src="0b7d84629c7cec6dd23959e78220d247" alt="Some image">
+						<img class="panel__img pos-6" src="8bf01e1a9e29e6756d69e595544bb6d4" alt="Some image">
+						<img class="panel__img pos-7" src="6d574afdd604eb781d2d096167acfaa3" alt="Some image">
+						<img class="panel__img pos-8" src="59574384b42299b6ecae980dde0a8c7f" alt="Some image">
+						<img class="panel__img pos-9" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-10" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-11" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-12" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-13" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-14" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-15" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-16" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+					</div>
+					<div class="details__content">
+						<h3 class="details__content-title oh"><span class="oh__inner">Projectiles</span></h3>
+						<p class="details__content-text">Incredible as this seems to our ordinary ideas, it is undoubtedly an understatement rather than an exaggeration of the true proportion as observed in the case of koilon.</p>
+						<a class="details__content-link oh"><span class="oh__inner">+ Read the story</span></a>
+					</div>
+				</div>
+				<div class="details" id="details-3">
+					<div class="panel">
+						<img class="panel__img pos-1" src="99d73a50b30e8417a5a59fe0b8c379ed" alt="Some image">
+						<img class="panel__img pos-2" src="cd2d4f5b0cab8e9e13ba0dd92f1546b5" alt="Some image">
+						<img class="panel__img pos-3" src="55240efab90b09b1e30456858777cfc1" alt="Some image">
+						<img class="panel__img pos-4" src="3e3920e911e003aac557ce4b9c438968" alt="Some image">
+						<img class="panel__img pos-5" src="0b7d84629c7cec6dd23959e78220d247" alt="Some image">
+						<img class="panel__img pos-6" src="8bf01e1a9e29e6756d69e595544bb6d4" alt="Some image">
+						<img class="panel__img pos-7" src="6d574afdd604eb781d2d096167acfaa3" alt="Some image">
+						<img class="panel__img pos-8" src="59574384b42299b6ecae980dde0a8c7f" alt="Some image">
+						<img class="panel__img pos-9" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-10" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-11" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-12" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-13" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-14" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-15" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-16" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+					</div>
+					<div class="details__content">
+						<h3 class="details__content-title oh"><span class="oh__inner">Gravity</span></h3>
+						<p class="details__content-text">Incredible as this seems to our ordinary ideas, it is undoubtedly an understatement rather than an exaggeration of the true proportion as observed in the case of koilon.</p>
+						<a class="details__content-link oh"><span class="oh__inner">+ Read the story</span></a>
+					</div>
+				</div>
+				<div class="details" id="details-4">
+					<div class="panel">
+						<img class="panel__img pos-1" src="99d73a50b30e8417a5a59fe0b8c379ed" alt="Some image">
+						<img class="panel__img pos-2" src="cd2d4f5b0cab8e9e13ba0dd92f1546b5" alt="Some image">
+						<img class="panel__img pos-3" src="55240efab90b09b1e30456858777cfc1" alt="Some image">
+						<img class="panel__img pos-4" src="3e3920e911e003aac557ce4b9c438968" alt="Some image">
+						<img class="panel__img pos-5" src="0b7d84629c7cec6dd23959e78220d247" alt="Some image">
+						<img class="panel__img pos-6" src="8bf01e1a9e29e6756d69e595544bb6d4" alt="Some image">
+						<img class="panel__img pos-7" src="6d574afdd604eb781d2d096167acfaa3" alt="Some image">
+						<img class="panel__img pos-8" src="59574384b42299b6ecae980dde0a8c7f" alt="Some image">
+						<img class="panel__img pos-9" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-10" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-11" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-12" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-13" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-14" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-15" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-16" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+					</div>
+					<div class="details__content">
+						<h3 class="details__content-title oh"><span class="oh__inner">Quasimodo</span></h3>
+						<p class="details__content-text">Incredible as this seems to our ordinary ideas, it is undoubtedly an understatement rather than an exaggeration of the true proportion as observed in the case of koilon.</p>
+						<a class="details__content-link oh"><span class="oh__inner">+ Read the story</span></a>
+					</div>
+				</div>
+				<div class="details" id="details-5">
+					<div class="panel">
+						<img class="panel__img pos-1" src="99d73a50b30e8417a5a59fe0b8c379ed" alt="Some image">
+						<img class="panel__img pos-2" src="cd2d4f5b0cab8e9e13ba0dd92f1546b5" alt="Some image">
+						<img class="panel__img pos-3" src="55240efab90b09b1e30456858777cfc1" alt="Some image">
+						<img class="panel__img pos-4" src="3e3920e911e003aac557ce4b9c438968" alt="Some image">
+						<img class="panel__img pos-5" src="0b7d84629c7cec6dd23959e78220d247" alt="Some image">
+						<img class="panel__img pos-6" src="8bf01e1a9e29e6756d69e595544bb6d4" alt="Some image">
+						<img class="panel__img pos-7" src="6d574afdd604eb781d2d096167acfaa3" alt="Some image">
+						<img class="panel__img pos-8" src="59574384b42299b6ecae980dde0a8c7f" alt="Some image">
+						<img class="panel__img pos-9" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-10" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-11" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-12" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-13" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-14" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-15" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-16" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+					</div>
+					<div class="details__content">
+						<h3 class="details__content-title oh"><span class="oh__inner">Hyperbolic</span></h3>
+						<p class="details__content-text">Incredible as this seems to our ordinary ideas, it is undoubtedly an understatement rather than an exaggeration of the true proportion as observed in the case of koilon.</p>
+						<a class="details__content-link oh"><span class="oh__inner">+ Read the story</span></a>
+					</div>
+				</div>
+				<div class="details" id="details-6">
+					<div class="panel">
+						<img class="panel__img pos-1" src="99d73a50b30e8417a5a59fe0b8c379ed" alt="Some image">
+						<img class="panel__img pos-2" src="cd2d4f5b0cab8e9e13ba0dd92f1546b5" alt="Some image">
+						<img class="panel__img pos-3" src="55240efab90b09b1e30456858777cfc1" alt="Some image">
+						<img class="panel__img pos-4" src="3e3920e911e003aac557ce4b9c438968" alt="Some image">
+						<img class="panel__img pos-5" src="0b7d84629c7cec6dd23959e78220d247" alt="Some image">
+						<img class="panel__img pos-6" src="8bf01e1a9e29e6756d69e595544bb6d4" alt="Some image">
+						<img class="panel__img pos-7" src="6d574afdd604eb781d2d096167acfaa3" alt="Some image">
+						<img class="panel__img pos-8" src="59574384b42299b6ecae980dde0a8c7f" alt="Some image">
+						<img class="panel__img pos-9" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-10" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-11" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-12" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-13" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-14" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-15" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+						<img class="panel__img pos-16" src="4ce4ecd7bcc6d9ce13717b51a499295f" alt="Some image">
+					</div>
+					<div class="details__content">
+						<h3 class="details__content-title oh"><span class="oh__inner">Ganymede</span></h3>
+						<p class="details__content-text">Incredible as this seems to our ordinary ideas, it is undoubtedly an understatement rather than an exaggeration of the true proportion as observed in the case of koilon.</p>
+						<a class="details__content-link oh"><span class="oh__inner">+ Read the story</span></a>
+					</div>
+				</div>
+				<button class="close close--details oh unbutton" aria-label="Close details"><span class="oh__inner">&#10005;</span></button>
+			</section>
+		</main>
+		<script src="06dfe9f8db92a79f21cf80f953a0a070"></script>
+		<!--script src="https://tympanus.net/codrops/adpacks/cda.js"></script-->
+		<!-- 
+			- set classes to body immediately when entering the states:
+				- state-initial (default)
+				- state-menu
+				- state-details
+			- the other state should only be removed in the end of the animations
+
+
+		-->
+	</body>
+</html>

@@ -87,7 +87,7 @@ menu.DOM.closeCtrl.addEventListener('click', () => {
 });
 
 // Preload images
-preloadImages().then(() => {
+preloadImages('.deco__img, .panel__img').then(() => {
     // Remove loader (loading class)
     document.body.classList.remove('loading');
     // show content

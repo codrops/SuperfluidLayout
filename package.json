@@ -2,7 +2,7 @@
   "name": "SuperfluidLayout",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.html",
+  "default": "dist/index.html",
   "scripts": {
     "start": "parcel src/index.html --open",
     "clean": "rm -rf dist/*",
